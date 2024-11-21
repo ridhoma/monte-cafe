@@ -8,6 +8,7 @@ venv/
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
+notebooks/wip/
 
 # Ignore OS-specific files
 .DS_Store
