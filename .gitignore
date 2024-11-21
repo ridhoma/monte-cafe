@@ -21,7 +21,7 @@ Thumbs.db
 # log files
 *.log
 
-# .mp4 video files
+# Typocal output files
 *.mp4
 *.png
 *.csv
