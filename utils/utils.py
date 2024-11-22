@@ -9,7 +9,6 @@ def count_frequency(states):
             states_count[s] = 1
     return states_count
 
-
 def split_list_to_batch(lst, batch_size):
     if type(lst) != list:
         lst = list(lst)
