@@ -16,6 +16,7 @@ networkx = "^3.2"
 seaborn = "^0.13"
 jupyter = "^1.0"
 jupyterlab = "^4.3.1"
+ipykernel = "^6.29.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
