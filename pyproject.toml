@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "monte-cafe"
+version = "0.1.0"
+description = "Notebook colletcions about Markov-Chain Monte Carlo methods"
+authors = ["Ridho Akbar <X (formerly Twitter) @@rdmakbar>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.24"
+scipy = "^1.10"
+pymc = "^5.18.1" 
+matplotlib = "^3.7"
+networkx = "^3.2"
+seaborn = "^0.13"
+jupyter = "^1.0"
+jupyterlab = "^4.3.1"
+ipykernel = "^6.29.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+black = "^23.3"
+flake8 = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

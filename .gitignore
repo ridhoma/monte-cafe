@@ -1,0 +1,27 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+notebooks/wip/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# log files
+*.log
+
+# Typocal output files
+*.mp4
+*.png
+*.csv
