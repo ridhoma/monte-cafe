@@ -32,7 +32,9 @@ My method is by starting with the very basic exercise, then moving on the the mo
 
 # Collaborations
 
-I really welcome if anyone wants to collaborate and study together with me. If you want to ask any questions, discuss any related topics, or point out my mistakes, it would be amazing if you could raise an Issue. I will engage as much as possoble. Not only that I also make this repository open if anyone wants to contribute. Raise a PR and I will review them.
+I really welcome if anyone wants to collaborate and study together with me. If you want to ask any questions, discuss any related topics, or point out my mistakes, it would be amazing if you could raise an Issue. I will engage as much as possoble. 
+
+Not only that I also welcome if anyone wants to contribute with the code. Contact me and I can invite you as collaborators in this repository
 
 
 # Running The Notebooks Locally
