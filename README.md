@@ -17,14 +17,14 @@ My method is by starting with the very basic exercise, then moving on the the mo
 ## Published Notebooks
 | Notebooks Title | First Published Date | Content  Description | Learning Objectives |
 |-----------------|-----------------|-------------|----------|
-| [01 The Circle-in-A-Square Model](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/01%20The%20Circle-in-A-Square%20Model.ipynb) |2024-11-22    | Using Monte-Carlo to estimate the value of $\pi$         | Understanding the Law of Large Number and basic intuition of sampling process      |
-| [02 Simulated Annealing to Help The Salesman](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/02%20Simulated%20Annealing%20to%20Help%20The%20Salesman.ipynb) |2024-11-27    | Simulated Annealing to estimate optimum route in large ($N \ge 100$) Traveling Salesman Problem (TSP)        | Basic intuition of acceptance/rejection which probability can be controlled (e.g. by Temperature parameter), familiarizing with Metropolis-Hasting algorithm    |
+| [01 The Circle-in-A-Square Model](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/01%20The%20Circle-in-A-Square%20Model.ipynb) |2024-11-27    | Using Monte-Carlo to estimate the value of $\pi$         | Understanding the Law of Large Number and basic intuition of sampling process      |
+| [02 Simulated Annealing to Help The Salesman](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/02%20Simulated%20Annealing%20to%20Help%20The%20Salesman.ipynb) |2024-11-27    | Simulated Annealing to estimate optimum route in large Traveling Salesman Problem (TSP, $N \ge 100$)        | Basic intuition of acceptance/rejection which probability can be controlled (e.g. by Temperature parameter), familiarizing with Metropolis-Hasting algorithm    |
+| [03 Discrete-Time Markov Chain](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/03%20Discrete-Time%20Markov%20Chain.ipynb)    | 2024-11-30 | Simulation of Markov Chain as random walk on a graph | What exactly Markov Chain is, and why it is the theoretical requirement for Monte-Carlo to be a valid sampling algorithm at all, and hence the name Markov-Chain Monte Carlo (MCMC) |
 
 ## Next Plan / Work in Progress
 | Topics | Content Description | Learning Objectives |
 |--------|-------------|---------------------|
-| Discrete Time Markov Chain    | Simulation of Markov Chain as random walk on a graph | Getting to know what exactly Markov Chain is   |
-| Stationary Distribution and Detailed Balance    | Showing a condition of when a Markoc Chain can or cannot reach stationary distribution | This is the fundamental theoretical principle of why MCMC even works at all |
+| Stationary Distribution and Detailed Balance    | Showing a condition of when a Markoc Chain can or cannot reach stationary distribution | What are condition of Markov process that would make it usable for MCMC, deriving the Metropolis-Hasting algorithm from Detailed Balance property of Markov-Chain |
 | Metropolis Hasting Algorithm    | ??? No interesting content idea yet ??? but basically implementation of Metropolis-Hasting algorithm from scratch    | Understand how Metropolis-Hasting algorithm uses the stationary distribution and detailed balance property of Markov-Chain to do sampling |
 | Langevin Monte-Carlo (LMC)    | I have an idea to do some kind of a race between LMC and Gradient Descent to find minimum value of a non-trivial multi-modals cost function. Maybe Rosenbrock "The Banana" Function.         | Familiarize with Hamiltonian Monte Carlo sampling algorithm                 |
 
