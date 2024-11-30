@@ -19,7 +19,7 @@ My method is by starting with the very basic exercise, then moving on the the mo
 |-----------------|-----------------|-------------|----------|
 | [01 The Circle-in-A-Square Model](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/01%20The%20Circle-in-A-Square%20Model.ipynb) |2024-11-27    | Using Monte-Carlo to estimate the value of $\pi$         | Understanding the Law of Large Number and basic intuition of sampling process      |
 | [02 Simulated Annealing to Help The Salesman](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/02%20Simulated%20Annealing%20to%20Help%20The%20Salesman.ipynb) |2024-11-27    | Simulated Annealing to estimate optimum route in large Traveling Salesman Problem (TSP, $N \ge 100$)        | Basic intuition of acceptance/rejection which probability can be controlled (e.g. by Temperature parameter), familiarizing with Metropolis-Hasting algorithm    |
-| [03 Discrete-Time Markov Chain](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/03%20Discrete-Time%20Markov%20Chain.ipynb)    | 2024-11-30 | Simulation of Markov Chain as random walk on a graph | What exactly Markov Chain is, and why it is the theoretical requirement for Monte-Carlo to be a valid sampling algorithm at all, and hence the name Markov-Chain Monte Carlo (MCMC) |
+| [03 Discrete-Time Markov-Chain](https://github.com/ridhoma/monte-cafe/blob/main/notebooks/03%20Discrete-Time%20Markov%20Chain.ipynb)    | 2024-11-30 | Simulation of Markov Chain as random walk on a graph | What exactly Markov Chain is, and why it is the theoretical requirement for Monte-Carlo to be a valid sampling algorithm at all, and hence the name Markov-Chain Monte Carlo (MCMC) |
 
 ## Next Plan / Work in Progress
 | Topics | Content Description | Learning Objectives |
