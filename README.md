@@ -25,7 +25,7 @@ My method is by starting with the very basic exercise, then moving on the the mo
 | Topics | Content Description | Learning Objectives |
 |--------|-------------|---------------------|
 | Stationary Distribution and Detailed Balance    | Showing a condition of when a Markoc Chain can or cannot reach stationary distribution | What are condition of Markov process that would make it usable for MCMC, deriving the Metropolis-Hasting algorithm from Detailed Balance property of Markov-Chain |
-| Metropolis Hasting Algorithm    | ??? No interesting content idea yet ??? but basically implementation of Metropolis-Hasting algorithm from scratch    | Understand how Metropolis-Hasting algorithm uses the stationary distribution and detailed balance property of Markov-Chain to do sampling |
+| Metropolis Hasting Algorithm    | Implementation of Metropolis-Hasting algorithm from scratch to sample from a skewed target distribution   | Understand how Metropolis-Hasting algorithm uses the stationary distribution and detailed balance property of Markov-Chain to do sampling |
 | Metropolis Adjusted Langevin Algorithm (MALA)    | Race between Monte-Carlo vs Gradient Descent with ADAM optimizer to find minimum value of a non-trivial multi-modals cost function, Rosenbrock "The Banana" Function.        | Familiarize with Hamiltonian Monte Carlo sampling algorithm                 |
 |... and more later ...|...|...|
 
