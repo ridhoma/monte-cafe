@@ -68,4 +68,4 @@ Important to note that when new notebooks are published, there might be new depe
 
 # Contact Me
 
-X (Formerly Twitter): @rdmakbar
+X (Formerly Twitter): [@rdmakbar](https://x.com/rdmakbar)
