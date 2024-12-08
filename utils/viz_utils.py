@@ -1,7 +1,7 @@
 import numpy as np
 import networkx as nx
 from matplotlib import pyplot as plt
-
+import matplotlib.colors as mcolors
 
 def draw_equilateral_triangle_markov_chain_graph(
     P, node_labels, node_colors=None, ax=None
@@ -68,12 +68,6 @@ def draw_equilateral_triangle_markov_chain_graph(
 
 
 def get_particles_state_locations(pi):   
-    def get_partcile_position(center_point, N):
-        r, theta = np.random.uniform(0, 0.3, N), np.random.uniform(0, 2*np.pi, N)
-        x = center_point[0] + r*np.cos(theta)
-        y = center_point[1] + r*np.sin(theta)
-        return np.stack([x, y], axis=1)
-
     xy, states = [], []
     for i in range(len(pi)):
         xy.append(get_partcile_position(center_point=(2*i,0), N=pi[i]))
@@ -82,18 +76,18 @@ def get_particles_state_locations(pi):
     return np.concatenate(xy), np.array(states)
 
 
-def plot_particles(xy, states, ax=None):
+def plot_particles(xy, marker_size=10, ax=None):
     if ax is None:
         fig, ax = plt.subplots()
         fig.dpi=150
-    unique_states = set(states)
-    for s in unique_states:
-        xy_ = xy[states==s]
-        ax.scatter(xy_[:,0], xy_[:,1], s=10)
+    cmap = mcolors.LinearSegmentedColormap.from_list("blue_orange", ["tab:blue", "tab:orange"])
+    x, y = xy[:,0], xy[:,1]
+    ax.scatter(x, y, s=marker_size, c=x, cmap=cmap)
     pad = 0.4
     ax.set_xlim([xy[:,0].min() - pad, xy[:,0].max() + 1.5*pad])
-    ax.set_ylim([xy[:,1].min()- pad, xy[:,1].max() + pad])
+    ax.set_ylim([xy[:,1].min() - pad, xy[:,1].max() + pad])
     ax.set_aspect('equal')
     ax.axis("off")
     if ax is None:
         return fig, ax
+
