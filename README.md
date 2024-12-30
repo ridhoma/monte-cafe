@@ -4,7 +4,7 @@ This repository is a documentation my process on studying the fundamentals of Ma
 
 # Motivation
 
-MCMC is one of many methods to draw samples from a probability distribution, and is very useful for doing a Bayesian analysis. In the real world, implementing MCMC algorithms from scratch would be a pain in the bum compared to just using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
+MCMC is one of many methods to draw samples from a probability distribution, and is probably the most popular methods for doing a Bayesian analysis. In the real world, implementing MCMC algorithms from scratch would be a pain in the bum compared to just using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
 
 But recently I feel something is missing, not knowing how it actually works behind the curtain despite, as a data scientist, often using it. Sadly, it's not studied very detail in Undergraduate Physics curiculum back in university (or maybe I missed the classes). 
 
