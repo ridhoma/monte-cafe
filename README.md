@@ -4,19 +4,17 @@ This repository is a documentation my process on studying the fundamentals of Ma
 
 # Motivation
 
-MCMC is one of many methods to draw samples from a probability distribution, and is probably the most popular methods for doing a Bayesian analysis. In the real world, implementing MCMC algorithms from scratch would be a pain in the bum compared to just using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
+As a data scientist, every know and then I would be faced with the needs to do Bayesian Analysis. MCMC, being one of the most popular sampling method always comes in handy. Despite it's effectiveness, in practice, implementing MCMC algorithms from scratch would be a pain in the one's bum for which one would most likely resort to using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
 
-But recently I feel something is missing, not knowing how it actually works behind the curtain despite, as a data scientist, often using it. Sadly, it's not studied very detail in Undergraduate Physics curiculum back in university (or maybe I missed the classes). 
-
-Anyway, I have commited with this repository to study MCMC from the very basics. Moreover, when I started diving in, so many elements turns out to be inspired by Physics. I love Physics, so it's an extra motivation for me.
+However recently I feel something is missing, using MCMC (via PyMC) without knowing how it actually works under the hood. Unfortunately, the topic was not discussed thoroughly during my Physics undergraduate years in university. Therefore, I have commited with this repository to study MCMC from the basics. Moreover, when I started diving in, so many elements turns out to be inspired by Physics. I love Physics, so it's an extra motivation for me.
 
 # Contents
 
-The main contents are under `/notebooks` directory. Each jupyter notebook is about one particular topic, learnt through interesting cases, with all the conceptual and theoretical explanation, equations, codes, visualization, and my self reflection on what I learnt through the process. 
+The main contents are under `/notebooks` directory. Each jupyter notebook is about one particular topic, trying to peel the layers of mathematical foundation under MCMC. I try to be as precise as possoble with my explanations, equations, codes, visualization. In addition, I also add my self reflection on what I have learned through the process. 
 
-My study method is by writing form scratch some popular MCMC algorithms such as Metropolis-Hastings, Hamiltonican Monte Carlo, NUTS, etc.. By writing the them from scratch, not only will I learn how they work but also tricks or modification to improve the algorithms in difficult cases.
+I approach this study by writing form scratch some popular MCMC algorithms such as Metropolis-Hastings, Hamiltonican Monte Carlo, NUTS, etc.. By writing the them from scratch, not only will I learn how they work but also tricks or modification to improve the algorithms in difficult cases.
 
-These algorithm implementations are often complicated. So to make the notebooks tidy, some implementation are written separately under `/models` directory.
+These algorithm implementations are often complicated. So to make the notebooks tidy, some implementations are written separately under `/models` or `/utils` directories.
 
 **Note:** This repository is a work in progress so the content will change (hopefully) frequently.
 
