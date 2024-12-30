@@ -14,9 +14,11 @@ Anyway, I have commited with this repository to study MCMC from the very basics.
 
 The main contents are under `/notebooks` directory. Each jupyter notebook is about one particular topic, learnt through interesting cases, with all the conceptual and theoretical explanation, equations, codes, visualization, and my self reflection on what I learnt through the process. 
 
-My study method is by writing form scratch some popular MCMC algorithms such as Metropolis-Hastings, Hamiltonican Monte Carlo, and NUTS. By writing the them from scratch, not only will I learn how they work but also tricks or modification to improve the algorithms in difficult cases.
+My study method is by writing form scratch some popular MCMC algorithms such as Metropolis-Hastings, Hamiltonican Monte Carlo, NUTS, etc.. By writing the them from scratch, not only will I learn how they work but also tricks or modification to improve the algorithms in difficult cases.
 
 These algorithm implementations are often complicated. So to make the notebooks tidy, some implementation are written separately under `/models` directory.
+
+**Note:** This repository is a work in progress so the content will change (hopefully) frequently.
 
 
 # Running Locally
