@@ -4,7 +4,7 @@ This repository is a documentation my process on studying the fundamentals of Ma
 
 # Motivation
 
-As a data scientist, every now and then I would be faced with the needs to do Bayesian Analysis. MCMC, being one of the most popular sampling method always comes in handy. Despite it's effectiveness, in practice, implementing MCMC algorithms from scratch would be a pain in the one's bum for which one would most likely resort to using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
+As a data scientist, every now and then I would be faced with the needs to do Bayesian Analysis. MCMC, being one of the most popular sampling method always comes in handy. Despite it's effectiveness, in practice, implementing MCMC algorithms from scratch would be a pain in one's bum for which one would most likely resort to using readily available frameworks, for example [PyMC](https://www.pymc.io/welcome.html). 
 
 However recently I feel something is missing, using MCMC (via PyMC) without knowing how it actually works under the hood. Moreover, when I started diving into this topic, so many concepts turn out to be inspired by Physics. I love Physics, so it's an extra motivation for me.
 
