@@ -10,7 +10,7 @@ However recently I feel something is missing, using MCMC (via PyMC) without know
 
 # Contents
 
-The main contents are under `/notebooks` directory. Each jupyter notebook is about one particular topic, trying to peel the layers of mathematical foundation under MCMC. I try to be as precise as possoble with my explanations, equations, codes, visualization. In addition, I also add my self reflection on what I have learned through the process. 
+The main contents are under `/notebooks` directory. Each jupyter notebook is about one particular topic, trying to peel the layers of mathematical foundation under MCMC. I try to be as precise as possible with my explanations, equations, codes, visualization. In addition, I also add my self reflection on what I have learned through the process. 
 
 I approach this study by writing form scratch some popular MCMC algorithms such as Metropolis-Hastings, Hamiltonican Monte Carlo, NUTS, etc.. By writing the them from scratch, not only will I learn how they work but also tricks or modification to improve the algorithms in difficult cases.
 
