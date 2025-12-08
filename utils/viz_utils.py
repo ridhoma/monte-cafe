@@ -91,3 +91,24 @@ def plot_particles(xy, marker_size=10, ax=None):
     if ax is None:
         return fig, ax
 
+def plot_contour(x, y, z, levels=20, cmap=None, fig=None, ax=None):
+    """
+    Plot a contour map when x and y are 1D arrays and z is a 2D grid.
+    
+    x : (n,)
+    y : (m,)
+    z : (m, n) or (n, m)
+    """
+    # Determine if z matches (len(y), len(x)) or needs transpose
+    # Create 2D grid for matplotlib
+    X, Y = np.meshgrid(x, y)
+
+    if not ax:
+        fig, ax = plt.subplots()
+    if cmap is None:
+        cmap = 'terrain'
+    cp = ax.contourf(X, Y, z, levels=levels, cmap=cmap)
+    if not ax:
+        return fig, ax
+
+
